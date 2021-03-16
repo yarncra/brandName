@@ -1,0 +1,58 @@
+.header {
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .nav {
+      &__link {
+        margin-right: 21px;
+        color: $lightTextColor;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 24px;
+        &_logo {
+          margin-right: 83px;
+          color: $lightTextColor;
+          font-weight: bold;
+          font-size: 24px;
+          line-height: 32px;
+        }
+      }
+    }
+    .login {
+      display: flex;
+      align-items: center;
+      &__link {
+        margin-right: 45px;
+        color: $primaryColor;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 22px;
+        letter-spacing: 0.2px;
+        &-member {
+          width: 214px;
+          padding: 15px 0;
+          padding-left: 25px;
+          //   padding: 15px 52px 15px 25px;
+          color: $lightTextColor;
+          font-weight: bold;
+          font-size: 14px;
+          line-height: 22px;
+          letter-spacing: 0.2px;
+          background: $primaryColor;
+          border-radius: 5px;
+          &::after {
+            content: "";
+            margin-left: 15px;
+            width: 12px;
+            height: 10px;
+            display: inline-block;
+            background-image: url("../../img/svg/arrow-ico.svg");
+            background-repeat: no-repeat;
+            // transition: margin-left 0.2s ease;
+          }
+        }
+      }
+    }
+  }
+}
