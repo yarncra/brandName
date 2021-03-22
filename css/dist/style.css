@@ -761,6 +761,7 @@ body {
 .designers__inner {
   margin-top: 80px;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
 }
 
