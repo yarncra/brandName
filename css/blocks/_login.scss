@@ -1,0 +1,38 @@
+.login {
+  display: flex;
+  align-items: center;
+}
+.login__link {
+  margin-right: 45px;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0.2px;
+  color: #23a6f0;
+}
+.login__link-member {
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding: 15px 52px 15px 25px;
+  background: #23a6f0;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+}
+.login__link-member::after {
+  content: "";
+  position: absolute;
+  right: 13px;
+  display: inline-block;
+  width: 30px;
+  height: 10px;
+  background-image: url("../../img/svg/arrow-ico.svg");
+  background-repeat: no-repeat;
+}
+.login__link-member:hover::after {
+  background-position-x: 10px;
+}
