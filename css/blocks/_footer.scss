@@ -1,53 +1,84 @@
-.footer{
-  display: flex;
+.footer {
+  margin-top: 53px;
 }
-.info__item{font-weight: 600;
+.footer::before {
+  content: "";
+  margin: 0 auto;
+  display: block;
+  width: 1057px;
+  border-bottom: 1px solid #e6e6e6;
+}
+.footer__inner {
+  margin-top: 54px;
+  display: flex;
+  justify-content: space-between;
+}
+.company__item {
+  font-weight: 600;
   font-size: 14px;
   line-height: 24px;
-  /* identical to box height, or 171% */
-  
   letter-spacing: 0.2px;
-  
-  /* light-text-color */
-  
-  color: #FFFFFF;}
-.legal__item{font-weight: 600;
-font-size: 14px;
-line-height: 24px;
-/* identical to box height, or 171% */
-
-letter-spacing: 0.2px;
-
-/* light-text-color */
-
-color: #FFFFFF;}
-.features__item{font-weight: 600;
-font-size: 14px;
-line-height: 24px;
-/* identical to box height, or 171% */
-
-letter-spacing: 0.2px;
-
-/* light-text-color */
-
-color: #FFFFFF;}
-.resources__item{font-weight: 600;
-font-size: 14px;
-line-height: 24px;
-/* identical to box height, or 171% */
-
-letter-spacing: 0.2px;
-
-/* light-text-color */
-
-color: #FFFFFF;}
-.subscribe__item{font-weight: 600;
-font-size: 14px;
-line-height: 24px;
-/* identical to box height, or 171% */
-
-letter-spacing: 0.2px;
-
-/* light-text-color */
-
-color: #FFFFFF;}
+  color: #ffffff;
+}
+.legal__item {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+}
+.features__item {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+}
+.resources__item {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+}
+.subscribe {
+}
+.subscribe__inner {
+  display: flex;
+}
+.subscribe__item {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+}
+.subscribe__input {
+  width: 204px;
+  height: 58px;
+  background: #f9f9f9;
+  border: 1px solid #e6e6e6;
+  box-sizing: border-box;
+  border-radius: 5px 0px 0px 5px;
+}
+.subscribe__btn {
+  width: 117px;
+  height: 58px;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+  background: #23a6f0;
+  border: 1px solid #e6e6e6;
+  box-sizing: border-box;
+  border-radius: 0px 5px 5px 0px;
+}
+.subscribe__text {
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 28px;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+}
