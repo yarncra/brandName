@@ -1,80 +1,88 @@
-.touch{
+.touch {
 }
-.touch__title{
-
+.touch__title {
 }
-.touch__subtitle{
+.touch__subtitle {
   margin-top: 253px;
   font-weight: bold;
   font-size: 40px;
   line-height: 57px;
   letter-spacing: 0.2px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
-.touch__text{
+.touch__text {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 20px;
   text-align: center;
   letter-spacing: 0.2px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
-.touch__items{
-display: flex;
-justify-content: space-between;
-flex-wrap: wrap;
+.touch__items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
-.touch__item{
-  margin-top: 110px;
+.touch__item {
+  margin: 100px 0 100px 0;
+  padding: 50px 0 50px 0;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 50px 40px;
   width: 328px;
-  height: 343px;
-  background: #FFFFFF;
+  min-height: 343px;
+  background: #ffffff;
+  color: #252b42;
 }
+// .touch__item--active {
+//   min-height: 343px;
+//   margin: 50px 0 50px 0;
+//   padding: 100px 0 100px 0;
+//   fill: #ffffff;
+//   border-color: #ffffff;
+//   color: #ffffff;
+//   background: #23a6f0;
+// }
+.touch__item:hover {
+  min-height: 343px;
+  margin: 50px 0 50px 0;
+  color: #ffffff;
+  padding: 100px 0 100px 0;
 
-.touch__item:hover{
-  left: 0;
-  height: 403px;
+  // height: 403px;
   // transform: scale(1.2);
   // height: 403px;
   // padding: 100px 0;
-  background: rgb(107, 120, 128);
-  transform: translateY(-30px)
-
+  // transform: translateY(-30px);
 }
 
-.touch__item-img{
-
+.touch__item-img {
 }
-.touch__item-ico{
-
+.touch__item-ico {
 }
-.touch__item-mail{
+
+.touch__item-mail {
   margin-top: 15px;
   font-weight: 600;
   font-size: 14px;
   line-height: 24px;
   text-align: center;
   letter-spacing: 0.2px;
-  color: #252B42;
 }
 
-.touch__item-title{
+.touch__item-title {
   margin-top: 15px;
   font-weight: bold;
   font-size: 16px;
   line-height: 24px;
   text-align: center;
   letter-spacing: 0.1px;
-  color: #252B42;
 }
-.touch__btn{
+.touch__btn {
   margin-top: 15px;
-  color: #23A6F0;
-  background: #FFFFFF;
+  color: #23a6f0;
+  background: #ffffff;
 }

@@ -1032,7 +1032,7 @@ body {
   font-size: 40px;
   line-height: 57px;
   letter-spacing: 0.2px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .touch__text {
@@ -1042,32 +1042,34 @@ body {
   line-height: 20px;
   text-align: center;
   letter-spacing: 0.2px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .touch__items {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
 }
 
 .touch__item {
-  margin-top: 110px;
+  margin: 100px 0 100px 0;
+  padding: 50px 0 50px 0;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 50px 40px;
   width: 328px;
-  height: 343px;
-  background: #FFFFFF;
+  min-height: 343px;
+  background: #ffffff;
+  color: #252b42;
 }
 
 .touch__item:hover {
-  left: 0;
-  height: 403px;
-  background: #6b7880;
-  transform: translateY(-30px);
+  min-height: 343px;
+  margin: 50px 0 50px 0;
+  color: #ffffff;
+  padding: 100px 0 100px 0;
 }
 
 .touch__item-mail {
@@ -1077,7 +1079,6 @@ body {
   line-height: 24px;
   text-align: center;
   letter-spacing: 0.2px;
-  color: #252B42;
 }
 
 .touch__item-title {
@@ -1087,13 +1088,12 @@ body {
   line-height: 24px;
   text-align: center;
   letter-spacing: 0.1px;
-  color: #252B42;
 }
 
 .touch__btn {
   margin-top: 15px;
-  color: #23A6F0;
-  background: #FFFFFF;
+  color: #23a6f0;
+  background: #ffffff;
 }
 
 .brandname__inner {
